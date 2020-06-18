@@ -1,0 +1,1 @@
+docker run -it -p 8501:8501 -v `pwd`:/host --rm --name streamlit streamlit streamlit run "/host/$@"
